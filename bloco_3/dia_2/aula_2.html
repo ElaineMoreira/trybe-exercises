@@ -3,36 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Básico</title>
+    <style>
+
+      h2{
+color: green;
+font-size: 2em;
+}
+      body{
+  background-color: rgb(255, 400, 200)
+}
+      #extintic-specie {background-color: green;}
+
+      #description {color: orange;}
+
+      .list-style{background-color: rgb(204, 204, 230);
+      color: rgb(247, 242, 240);
+
+      font-size:  20px ;
+      }
+       p{
+         font-family: monospace, sans-serif;
+
+         font-weight: bold;
+         font-style: italic;
+         line-height: 40px;
+         text-align: center;
+         text-decoration: underline;
+       }
+
+    </style>
 </head>
 <body>
     <h1>Tudo sobre a sequoia-gigante</h1>
     <img src="https://startupi.com.br/wp-content/uploads/2018/03/sequoia-empreendedorismo-870x250.jpg" alt="Foto da sequoia-gigante">
-    <h2>Descrição:</h2>
-    <p>Tudo começa com a <strong>Qualcomm</strong>. Sim, a que estava com negociações com a Broadcom e (in)felizmente não foi comprada 
-    por esta devido a questões governamentais. No ano de 2017 ela criou uma chamada para premiar os 10 melhores projetos 
-    de inovação relacionados com IoT e Wearable devices (veja o video acima). Em outubro do mesmo ano foi a divulgação e 
-    premiação dos 10 agraciados. E aí, fiquei entre os 10! Yes! O principal prêmio foi uma imersão de 7 dias na Califórnia
-    conhecendo empresas e instituições ligadas à empreendedorismo, indústria, pesquisa e desenvolvimento. Entre elas, eu
-    posso citar: <strong>Facebook, Ford, Plug and Play Incubator, Institute of the Americas, IBM</strong>, e, claro, a incrível Qualcomm. 
-    Estive tanto em San Francisco, quanto em San Diego. E a viagem foi organizada pela <strong>Confederação Nacional da Industria 
+    <h2 id="description">Descrição:</h2>
+    <p>Tudo começa com a <strong>Qualcomm</strong>. Sim, a que estava com negociações com a Broadcom e (in)felizmente não foi comprada <br>
+    por esta devido a questões governamentais. No ano de 2017 ela criou uma chamada para premiar os 10 melhores projetos <br>
+    de inovação relacionados com IoT e Wearable devices (veja o video acima). Em outubro do mesmo ano foi a divulgação e <br>
+    premiação dos 10 agraciados. E aí, fiquei entre os 10! Yes! O principal prêmio foi uma imersão de 7 dias na Califórnia<br>
+    conhecendo empresas e instituições ligadas à empreendedorismo, indústria, pesquisa e desenvolvimento. Entre elas, eu<br>
+    posso citar: <strong>Facebook, Ford, Plug and Play Incubator, Institute of the Americas, IBM</strong>, e, claro, a incrível Qualcomm. <br>
+    Estive tanto em San Francisco, quanto em San Diego. E a viagem foi organizada pela <strong>Confederação Nacional da Industria <br>
     (CNI)</strong> no começo de fevereiro de 2018. Sem dúvida, uma experiência única. Sou grato a Qualcomm pelo prêmio e pela experiência.</p>
 
     <h2>As Sequoias Gigantes</h2>
-    <p>Antes de mais nada, acho que se faz necessário algumas informações sobre elas. Sequias 
-    preferem solos profundos e bem drenados, em altitudes entre 1.300 e 2.100 metros onde 
-    a água é mais disponível durante o derretimento da neve. Elas podem suportar temperaturas
-     entre -15 a 38 graus Celsius. A casca dessas árvores antigas pode crescer até 60 cm de 
-    espessura. Sequoias gigantes são árvores consideradas como as mais antigas, maiores e de
-     mais rápido crescimento no mundo. Elas são muito resistentes a doenças e podem viver 
-     acima de 3.000 anos, crescer até uns 100 metros de altura e medir uns 10 metros de diâmetro. 
-    ventualmente essas nobres gigantes caem devido ao seu próprio peso. As cicatrizes de fogo
-    em velhas árvores testemunham sua resistência e longevidade. Algo interessante é que quando 
-    existem queimadas espontâneas, essas queimadas promovem minerais ricos no solo que são 
-    importantes para que suas sementes germinem mais rapidamente. Quando as queimadas não 
-    acontecem espontaneamente, elas são incentivas por ambientalistas. Essa cultura vem desde 
+    <p>Antes de mais nada, acho que se faz necessário algumas informações sobre elas. Sequias <br>
+    preferem solos profundos e bem drenados, em altitudes entre 1.300 e 2.100 metros onde <br>
+    a água é mais disponível durante o derretimento da neve. Elas podem suportar temperaturas<br>
+     entre -15 a 38 graus Celsius. A casca dessas árvores antigas pode crescer até 60 cm de <br>
+    espessura. Sequoias gigantes são árvores consideradas como as mais antigas, maiores e de<br>
+     mais rápido crescimento no mundo. Elas são muito resistentes a doenças e podem viver <br>
+     acima de 3.000 anos, crescer até uns 100 metros de altura e medir uns 10 metros de diâmetro. <br>
+    ventualmente essas nobres gigantes caem devido ao seu próprio peso. As cicatrizes de fogo<br>
+    em velhas árvores testemunham sua resistência e longevidade. Algo interessante é que quando <br>
+    existem queimadas espontâneas, essas queimadas promovem minerais ricos no solo que são <br>
+    importantes para que suas sementes germinem mais rapidamente. Quando as queimadas não <br>
+    acontecem espontaneamente, elas são incentivas por ambientalistas. Essa cultura vem desde <br>
     a época dos índios daquela região (Yosemite Park).</p>
 <h2>Mas o que tem a ver as Sequoias Gigantes com Empreendedorismo?</h2>
-<ul>
+<ul class="list-style">
     <li>Ambiente propício
     </li>
     <li>O risco de ser grande
@@ -40,42 +69,42 @@
     <li>Queimar é saudável
     </li>
   <h3>Ambiente Propício</h3>
-  <p>Costumo dizer para alguns colegas que se Steve Jobs tivesse nascido no Acre, provavelmente ele 
-    não teria sido o empreendedor que ele foi. Ah, sem o politicamente correto aqui, tá?! Me 
-    refiro ao Acre porque não conheço nenhum caso de sucesso de lá. E, poderia ser de qualquer 
-    outro lugar que não tenha um ambiente favorável ao empreendedorismo. O contraponto são as cidades 
-    que estão preparadas para isso, tais como: São Paulo, Minas Gerais, Santa Catarina, Recife, e por
-  aí vai. Ou seja, se você quer que algo aconteça, é importante você estar no lugar certo. Isso 
-  acontece com muitas coisas de nosso dia-a-dia. Um ambiente propício ao empreendedorismo passa 
-  muito pelas questões de regulamentação local, mão-de-obra e cultura. Exemplos: em Recife existe
-   um pagamento semestral à prefeitura simplesmente se você (ou sua empresa) tem uma Inscrição 
-   Municipal. Na cidade do Rio de Janeiro não tem essa taxa! No Brasil, a ANATEL obriga que um 
-   aparelho já homologado por ela precise de uma “re-homologação” a cada 2 anos! Mesmo que o produto
-    não tenha sofrido qualquer alteração desde então. Ou seja, modificação zero não implica em 
-    isenção de uma nova homologação. Isto representa nova dor de cabeça, nova burocracia e muito 
-    mais dinheiro gasto. Em outros países basta a primeira (e única) homologação. Simples assim.
-   Com as Sequoias “veem” isso? Elas preferem solos profundos e bem drenados, onde há água disponível
-   no derretimento da neve. Quando você procurar um lugar para abrir, ou para estabelecer sua startup, 
-   pense em que local você está ficando (ainda que temporariamente) suas raízes. Suas raízes precisam 
+  <p id="extintic-specie" >Costumo dizer para alguns colegas que se Steve Jobs tivesse nascido no Acre, provavelmente ele <br>
+    não teria sido o empreendedor que ele foi. Ah, sem o politicamente correto aqui, tá?! Me <br>
+    refiro ao Acre porque não conheço nenhum caso de sucesso de lá. E, poderia ser de qualquer <br>
+    outro lugar que não tenha um ambiente favorável ao empreendedorismo. O contraponto são as cidades <br>
+    que estão preparadas para isso, tais como: São Paulo, Minas Gerais, Santa Catarina, Recife, e por<br>
+  aí vai. Ou seja, se você quer que algo aconteça, é importante você estar no lugar certo. Isso <br>
+  acontece com muitas coisas de nosso dia-a-dia. Um ambiente propício ao empreendedorismo passa <br>
+  muito pelas questões de regulamentação local, mão-de-obra e cultura. Exemplos: em Recife existe<br>
+   um pagamento semestral à prefeitura simplesmente se você (ou sua empresa) tem uma Inscrição <br>
+   Municipal. Na cidade do Rio de Janeiro não tem essa taxa! No Brasil, a ANATEL obriga que um <br>
+   aparelho já homologado por ela precise de uma “re-homologação” a cada 2 anos! Mesmo que o produto<br>
+    não tenha sofrido qualquer alteração desde então. Ou seja, modificação zero não implica em <br>
+    isenção de uma nova homologação. Isto representa nova dor de cabeça, nova burocracia e muito <br>
+    mais dinheiro gasto. Em outros países basta a primeira (e única) homologação. Simples assim.<br>
+   Com as Sequoias “veem” isso? Elas preferem solos profundos e bem drenados, onde há água disponível<br>
+   no derretimento da neve. Quando você procurar um lugar para abrir, ou para estabelecer sua startup,<br> 
+   pense em que local você está ficando (ainda que temporariamente) suas raízes. Suas raízes precisam <br>
    de água abundante e um bom solo para crescer!</p>
 <h3>O risco de ser grande</h3>
-<p>Costumo dizer para alguns colegas que se Steve Jobs tivesse nascido no Acre, provavelmente ele 
-    não teria sido o empreendedor que ele foi. Ah, sem o politicamente correto aqui, tá?! Me 
-    refiro ao Acre porque não conheço nenhum caso de sucesso de lá. E, poderia ser de qualquer 
-    outro lugar que não tenha um ambiente favorável ao empreendedorismo. O contraponto são as cidades 
-    que estão preparadas para isso, tais como: São Paulo, Minas Gerais, Santa Catarina, Recife, e por
-  aí vai. Ou seja, se você quer que algo aconteça, é importante você estar no lugar certo. Isso 
-  acontece com muitas coisas de nosso dia-a-dia. Um ambiente propício ao empreendedorismo passa 
-  muito pelas questões de regulamentação local, mão-de-obra e cultura. Exemplos: em Recife existe
-   um pagamento semestral à prefeitura simplesmente se você (ou sua empresa) tem uma Inscrição 
-   Municipal. Na cidade do Rio de Janeiro não tem essa taxa! No Brasil, a ANATEL obriga que um 
-   aparelho já homologado por ela precise de uma “re-homologação” a cada 2 anos! Mesmo que o produto
-    não tenha sofrido qualquer alteração desde então. Ou seja, modificação zero não implica em 
-    isenção de uma nova homologação. Isto representa nova dor de cabeça, nova burocracia e muito 
-    mais dinheiro gasto. Em outros países basta a primeira (e única) homologação. Simples assim.
-   Com as Sequoias “veem” isso? Elas preferem solos profundos e bem drenados, onde há água disponível
-   no derretimento da neve. Quando você procurar um lugar para abrir, ou para estabelecer sua startup, 
-   pense em que local você está ficando (ainda que temporariamente) suas raízes. Suas raízes precisam 
+<p>Costumo dizer para alguns colegas que se Steve Jobs tivesse nascido no Acre, provavelmente ele <br>
+    não teria sido o empreendedor que ele foi. Ah, sem o politicamente correto aqui, tá?! Me <br>
+    refiro ao Acre porque não conheço nenhum caso de sucesso de lá. E, poderia ser de qualquer <br>
+    outro lugar que não tenha um ambiente favorável ao empreendedorismo. O contraponto são as cidades <br>
+    que estão preparadas para isso, tais como: São Paulo, Minas Gerais, Santa Catarina, Recife, e por<br>
+  aí vai. Ou seja, se você quer que algo aconteça, é importante você estar no lugar certo. Isso <br>
+  acontece com muitas coisas de nosso dia-a-dia. Um ambiente propício ao empreendedorismo passa <br>
+  muito pelas questões de regulamentação local, mão-de-obra e cultura. Exemplos: em Recife existe<br>
+   um pagamento semestral à prefeitura simplesmente se você (ou sua empresa) tem uma Inscrição <br>
+   Municipal. Na cidade do Rio de Janeiro não tem essa taxa! No Brasil, a ANATEL obriga que um <br>
+   aparelho já homologado por ela precise de uma “re-homologação” a cada 2 anos! Mesmo que o produto<br>
+    não tenha sofrido qualquer alteração desde então. Ou seja, modificação zero não implica em <br>
+    isenção de uma nova homologação. Isto representa nova dor de cabeça, nova burocracia e muito <br>
+    mais dinheiro gasto. Em outros países basta a primeira (e única) homologação. Simples assim.<br>
+   Com as Sequoias “veem” isso? Elas preferem solos profundos e bem drenados, onde há água disponível <br>
+   no derretimento da neve. Quando você procurar um lugar para abrir, ou para estabelecer sua startup, <br>
+   pense em que local você está ficando (ainda que temporariamente) suas raízes. Suas raízes precisam <br>
    de água abundante e um bom solo para crescer!</p>
 </ul>
 
