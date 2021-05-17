@@ -1,0 +1,5 @@
+.nav-links li{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
