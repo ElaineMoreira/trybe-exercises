@@ -1,3 +1,4 @@
+//exercicio 2
 let tamanho = 5;
 let simbolo = '*';
 let quantast = '';

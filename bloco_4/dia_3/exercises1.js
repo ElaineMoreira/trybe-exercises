@@ -1,3 +1,4 @@
+//exercicio 1
 let linhas = 8;
 let simbolo = '*';
 let colunalinha = '';
